@@ -4,8 +4,8 @@
 //
 //  Created by kylin on 16/10/21.
 //  Copyright © 2016年 kylin. All rights reserved.
-//
-
+//  简书地址 http://www.jianshu.com/p/9d2abe9131d4
+//  GITHUB https://github.com/KylinSpace/KLURLCache.git
 #import "ViewController.h"
 
 @interface ViewController ()

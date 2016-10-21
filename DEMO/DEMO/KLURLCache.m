@@ -4,8 +4,8 @@
 //
 //  Created by kylin on 16/10/10.
 //  Copyright © 2016年 Apple. All rights reserved.
-//  简书地址 http://www.jianshu.com/users/50e0d5fd4825/latest_articles
-
+//  简书地址 http://www.jianshu.com/p/9d2abe9131d4
+//  GITHUB https://github.com/KylinSpace/KLURLCache.git
 #import "KLURLCache.h"
 #import "Util.h"
 #import "Reachability.h"
@@ -34,6 +34,7 @@ static double const expireTime = 7;
 }
 
 
+// 重写初始化方法
 - (instancetype)initWithMemoryCapacity:(NSUInteger)memoryCapacity diskCapacity:(NSUInteger)diskCapacity diskPath:(NSString *)path{
     if (self = [super initWithMemoryCapacity:memoryCapacity diskCapacity:diskCapacity diskPath:path]) {
         
